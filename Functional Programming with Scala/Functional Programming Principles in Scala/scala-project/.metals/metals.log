@@ -1,0 +1,136 @@
+2023.07.11 21:53:38 INFO  Started: Metals version 0.11.12 in workspace 'E:\Documents\_FunAndProfit\Coursera\Functional Programming with Scala\Functional Programming Principles in Scala\scala-project' for client Visual Studio Code 1.76.0.
+Jul 11, 2023 9:53:38 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jul 11, 2023 9:53:38 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 11, 2023 9:53:38 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 11, 2023 9:53:38 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:E:\Documents\_FunAndProfit\Coursera\Functional Programming with Scala\Functional Programming Principles in Scala\scala-project\.metals\metals (H2 2.1)
+Jul 11, 2023 9:53:38 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jul 11, 2023 9:53:38 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.012s)
+Jul 11, 2023 9:53:38 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jul 11, 2023 9:53:38 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jul 11, 2023 9:53:38 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jul 11, 2023 9:53:38 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jul 11, 2023 9:53:38 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jul 11, 2023 9:53:39 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jul 11, 2023 9:53:39 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.031s)
+2023.07.11 21:53:39 INFO  time: initialize in 1.03s
+2023.07.11 21:53:39 WARN  Build server is not auto-connectable.
+2023.07.11 21:53:43 INFO  running 'C:\Users\ospite\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ospite\AppData\Local\Temp\metals2517375787785169225\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.07.11 21:53:43 ERROR [info] [launcher] getting org.scala-sbt sbt 1.9.0  (this may take some time)...
+2023.07.11 21:53:55 WARN  no build target for: E:\Documents\_FunAndProfit\Coursera\Functional Programming with Scala\Functional Programming Principles in Scala\scala-project\project\metals.sbt
+2023.07.11 21:53:56 ERROR [info] [launcher] getting Scala 2.12.18 (for sbt)...
+2023.07.11 21:53:58 INFO  [info] welcome to sbt 1.9.0 (AdoptOpenJDK Java 1.8.0_292)
+2023.07.11 21:54:00 INFO  [info] loading settings for project scala-project-build-build from metals.sbt ...
+2023.07.11 21:54:00 INFO  [info] loading project definition from E:\Documents\_FunAndProfit\Coursera\Functional Programming with Scala\Functional Programming Principles in Scala\scala-project\project\project
+2023.07.11 21:54:03 INFO  [info] loading settings for project scala-project-build from metals.sbt ...
+2023.07.11 21:54:03 INFO  [info] loading project definition from E:\Documents\_FunAndProfit\Coursera\Functional Programming with Scala\Functional Programming Principles in Scala\scala-project\project
+2023.07.11 21:54:04 INFO  no build target found for E:\Documents\_FunAndProfit\Coursera\Functional Programming with Scala\Functional Programming Principles in Scala\scala-project\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.2.2
+2023.07.11 21:54:05 INFO  time: code lens generation in 9.46s
+2023.07.11 21:54:07 INFO  [success] Generated .bloop\scala-project-build.json
+2023.07.11 21:54:07 INFO  [success] Total time: 4 s, completed Jul 11, 2023 9:54:07 PM
+2023.07.11 21:54:07 INFO  [info] loading settings for project scala-project from build.sbt ...
+2023.07.11 21:54:07 INFO  [info] set current project to scala-project (in build file:/E:/Documents/_FunAndProfit/Coursera/Functional%20Programming%20with%20Scala/Functional%20Programming%20Principles%20in%20Scala/scala-project/)
+2023.07.11 21:54:11 WARN  no build target for: E:\Documents\_FunAndProfit\Coursera\Functional Programming with Scala\Functional Programming Principles in Scala\scala-project\src\main\scala\example\example.worksheet.sc
+2023.07.11 21:54:12 INFO  [success] Generated .bloop\scala-project.json
+2023.07.11 21:54:12 INFO  [success] Generated .bloop\scala-project-test.json
+2023.07.11 21:54:12 INFO  [success] Total time: 4 s, completed Jul 11, 2023 9:54:12 PM
+2023.07.11 21:54:12 INFO  time: ran 'sbt bloopInstall' in 28s
+2023.07.11 21:54:12 INFO  Attempting to connect to the build server...
+2023.07.11 21:54:12 INFO  Setting up current java home C:\Users\ospite\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 in C:\Users\ospite\.bloop\bloop.json
+2023.07.11 21:54:28 INFO  no build target found for E:\Documents\_FunAndProfit\Coursera\Functional Programming with Scala\Functional Programming Principles in Scala\scala-project\src\main\scala\example\example.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.07.11 21:54:28 INFO  time: evaluated worksheet 'example.worksheet.sc' in 16s
+2023.07.11 21:54:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Documents\_FunAndProfit\Coursera\Functional Programming with Scala\Functional Programming Principles in Scala\scala-project\.metals\bsp.trace.json or C:\Users\ospite\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.07.11 21:54:37 INFO  Attempting to connect to the build server...
+2023.07.11 21:54:37 INFO  Bloop uses C:\Users\ospite\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\ospite\.bloop\bloop.json
+2023.07.11 21:54:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Documents\_FunAndProfit\Coursera\Functional Programming with Scala\Functional Programming Principles in Scala\scala-project\project\.metals\bsp.trace.json or C:\Users\ospite\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.07.11 21:54:41 INFO  time: Connected to build server in 29s
+2023.07.11 21:54:41 INFO  Connected to Build server: Bloop v1.5.6
+2023.07.11 21:54:47 INFO  time: indexed workspace in 6.29s
+2023.07.11 21:54:49 INFO  time: code lens generation in 1.46s
+2023.07.11 21:54:59 INFO  time: evaluated worksheet 'example.worksheet.sc' in 7.45s
+2023.07.12 12:05:00 INFO  Started: Metals version 0.11.12 in workspace 'E:\Documents\_FunAndProfit\Coursera\Functional Programming with Scala\Functional Programming Principles in Scala\scala-project' for client Visual Studio Code 1.76.0.
+Jul 12, 2023 12:05:00 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jul 12, 2023 12:05:00 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 12, 2023 12:05:00 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 12, 2023 12:05:05 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:E:\Documents\_FunAndProfit\Coursera\Functional Programming with Scala\Functional Programming Principles in Scala\scala-project\.metals\metals (H2 2.1)
+Jul 12, 2023 12:05:05 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.038s)
+Jul 12, 2023 12:05:05 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jul 12, 2023 12:05:05 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.12 12:05:05 INFO  time: initialize in 5.04s
+2023.07.12 12:05:06 INFO  Attempting to connect to the build server...
+2023.07.12 12:05:06 INFO  Bloop uses C:\Users\ospite\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\ospite\.bloop\bloop.json
+2023.07.12 12:05:06 INFO  skipping build import with status 'Installed'
+2023.07.12 12:05:10 INFO  no build target found for E:\Documents\_FunAndProfit\Coursera\Functional Programming with Scala\Functional Programming Principles in Scala\scala-project\src\main\scala\example\example.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.07.12 12:05:11 INFO  time: code lens generation in 5.25s
+2023.07.12 12:05:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Documents\_FunAndProfit\Coursera\Functional Programming with Scala\Functional Programming Principles in Scala\scala-project\.metals\bsp.trace.json or C:\Users\ospite\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.07.12 12:05:15 INFO  Attempting to connect to the build server...
+2023.07.12 12:05:15 INFO  Bloop uses C:\Users\ospite\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\ospite\.bloop\bloop.json
+2023.07.12 12:05:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Documents\_FunAndProfit\Coursera\Functional Programming with Scala\Functional Programming Principles in Scala\scala-project\project\.metals\bsp.trace.json or C:\Users\ospite\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.07.12 12:05:15 INFO  time: Connected to build server in 9.22s
+2023.07.12 12:05:15 INFO  Connected to Build server: Bloop v1.5.6
+2023.07.12 12:05:16 INFO  time: Imported build in 0.12s
+2023.07.12 12:05:22 INFO  time: indexed workspace in 6.77s
+2023.07.12 12:05:31 INFO  time: evaluated worksheet 'example.worksheet.sc' in 4.29s
+2023.07.12 12:05:34 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.39s
+2023.07.18 22:10:28 INFO  time: code lens generation in 2.46s
+2023.07.18 22:11:30 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.45s
+2023.07.18 22:21:12 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.41s
+2023.07.18 22:38:33 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.33s
+2023.07.18 22:39:52 INFO  Shutting down server
+2023.07.18 22:39:52 INFO  shutting down Metals
+2023.07.18 22:39:52 INFO  Shut down connection with build server.
+2023.07.18 22:39:52 INFO  Shut down connection with build server.
+2023.07.18 22:39:52 INFO  Exiting server
+2023.07.18 22:40:15 INFO  Started: Metals version 0.11.12 in workspace 'E:\Documents\_FunAndProfit\Coursera\Functional Programming with Scala\Functional Programming Principles in Scala\scala-project' for client Visual Studio Code 1.80.0.
+Jul 18, 2023 10:40:15 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jul 18, 2023 10:40:15 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 18, 2023 10:40:15 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 18, 2023 10:40:16 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:E:\Documents\_FunAndProfit\Coursera\Functional Programming with Scala\Functional Programming Principles in Scala\scala-project\.metals\metals (H2 2.1)
+Jul 18, 2023 10:40:16 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.019s)
+Jul 18, 2023 10:40:16 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jul 18, 2023 10:40:16 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.18 22:40:16 INFO  time: initialize in 0.55s
+2023.07.18 22:40:17 INFO  Attempting to connect to the build server...
+2023.07.18 22:40:17 INFO  Bloop uses C:\Users\ospite\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\ospite\.bloop\bloop.json
+2023.07.18 22:40:17 INFO  skipping build import with status 'Installed'
+2023.07.18 22:40:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Documents\_FunAndProfit\Coursera\Functional Programming with Scala\Functional Programming Principles in Scala\scala-project\.metals\bsp.trace.json or C:\Users\ospite\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.07.18 22:40:17 INFO  Attempting to connect to the build server...
+2023.07.18 22:40:17 INFO  Bloop uses C:\Users\ospite\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\ospite\.bloop\bloop.json
+2023.07.18 22:40:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Documents\_FunAndProfit\Coursera\Functional Programming with Scala\Functional Programming Principles in Scala\scala-project\project\.metals\bsp.trace.json or C:\Users\ospite\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.07.18 22:40:17 INFO  time: Connected to build server in 0.46s
+2023.07.18 22:40:17 INFO  Connected to Build server: Bloop v1.5.6
+2023.07.18 22:40:26 INFO  time: indexed workspace in 8.1s
+2023.07.18 22:40:35 INFO  time: evaluated worksheet 'example.worksheet.sc' in 4.78s
+2023.07.18 22:40:37 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.46s
+2023.07.18 22:40:51 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.37s
+2023.07.18 22:41:00 INFO  Shutting down server
+2023.07.18 22:41:00 INFO  shutting down Metals
+2023.07.18 22:41:01 INFO  Shut down connection with build server.
+2023.07.18 22:41:01 INFO  Shut down connection with build server.
+2023.07.18 22:41:00 INFO  Exiting server
